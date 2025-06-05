@@ -9,8 +9,21 @@
             background-attachment: fixed;
         }
         #bima{
-            background-image: linear-gradient(to top right,blue,green,purple,yellow,pink,red,orange,maroon);
-        };
+            background-image: linear-gradient(to top right,blue,green,rgb(51, 44, 51),yellow,pink,red,orange,maroon);
+        }
+        @keyframes mat{
+            0%{background-color: rgba(17, 138, 179, 0.297);}
+            25%{background-color: blue;}
+            50%{background-color: brown;}
+            75%{background-color: rgba(16, 119, 26, 0.167);}
+            100%{background-color: deeppink;}
+        }
+        div{
+            height: 500px;
+            width: 500px;
+            animation-name: mat;
+            animation-duration: 10s;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,5 +44,16 @@
         experience. The exterior is defined by M-specific design elements, including quad exhausts, a rear diffuser, and a
         high-gloss black M kidney grille.
     </p>
+    <div>
+        <p>
+            The BMW X6 M Competition is a high-performance luxury SUV that combines aggressive styling with 617 horsepower from a
+            4.4-liter BMW M TwinPower Turbo V-8 engine. It features 48V mild-hybrid technology, M xDrive all-wheel drive, and an
+            8-speed M Sport Automatic Transmission for extreme performance.
+            
+            Inside, it boasts a BMW Curved Display, M Multi-Functional Seats, and ambient lighting, creating a premium driving
+            experience. The exterior is defined by M-specific design elements, including quad exhausts, a rear diffuser, and a
+            high-gloss black M kidney grille.
+        </p>
+    </div>
 </body>
 </html>
